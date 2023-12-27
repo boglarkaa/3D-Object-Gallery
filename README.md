@@ -1,5 +1,7 @@
 # Interactive 3D Object Gallery - Computer Graphics Project
 
+![Project Image](https://github.com/boglarkaa/3D-Object-Gallery/blob/main/image.jpg)
+
 This project showcases an interactive gallery featuring 3D objects within a virtual scene. Users can interact with these objects using various actions like mouse clicks, key presses, and mouse movement to manipulate perspectives.
 
 ## Technologies Used
