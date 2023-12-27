@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>3D Object Gallery</title>
+		<style>
+			body {
+				margin: 0;
+			}
+			canvas {
+				display: block;
+			}
+
+			#instructions {
+				position: absolute;
+
+				text-align: left;
+				font-size: 14px;
+				cursor: pointer;
+
+				color: white;
+				margin: 15px;
+				padding: 10px;
+
+				border: dashed #ff8a00;
+			}
+
+			h2 {
+				margin: 5px;
+			}
+		</style>
+
+		<script type="importmap">
+			{
+				"imports": {
+					"three": "https://unpkg.com/three@0.159.0/build/three.module.js",
+					"three/addons/": "https://unpkg.com/three@0.159.0/examples/jsm/",
+					"three/addons/controls/OrbitControls.js": "https://unpkg.com/three@0.159.0/examples/jsm/controls/OrbitControls.js"
+				}
+			}
+		</script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+		<script src="functions.js" type="module"></script>
+		
+	</head>
+	<body>
+		<div id="instructions">
+			<h2>instructions:</h2>
+			<p>
+				Scale cone: CLICK<br />
+				Rotate cube: CLICK<br />
+				Move sphere: ARROWS<br />
+				Look: MOUSE<br />
+				Stop animations: SPACE
+			</p>
+		</div>
+	</body>
+</html>
